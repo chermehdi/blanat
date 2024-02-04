@@ -8,6 +8,7 @@ int main() {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     
+    sleep(5); // inject slowness
     int t; 
     cin >> t;
     int ans = t + t;
